@@ -1,0 +1,3 @@
+slovnik = {"dům": ["house","der Haus","Casa","Maison","Talo"], "zahrada": ["garden","der Garten","jardines","jardins","puutarhat"], "strom": ["tree","der Baum","árbol","arbre","puu"], "auto": ["car","das Auto","coche","voiture","auto"], "les": ["forest","der Wald","bosque","forêt","metsä"], "obchod": ["shop","das Geschäft","comercio","Commerce","käydä kauppaa"]}
+i = input("Zadejte jaké slovo chcete přeložit do angličtiny, němčiny, španělštiny, francouzštiny a finštiny: ")
+print(slovnik[i])
